@@ -31,6 +31,7 @@ public class LoginServlet extends HttpServlet {
                 if (u.getPass().equals(password)) { // Password matches
                     HttpSession session = req.getSession();
                     session.setAttribute("User", u);
+                    session.setAttribute("userId", u.getId());
                     
                     // Redirect based on role
                     if (u.getRole().equalsIgnoreCase("admin")) {

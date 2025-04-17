@@ -20,6 +20,8 @@ public class ManageCourseServlet extends HttpServlet {
             String courseName = req.getParameter("courseName");
             String courseCode = req.getParameter("courseCode");
             String description = req.getParameter("description");
+            
+            System.out.println("Recieved :"+courseName+ " "+courseCode+" "+"description");
 
             Course course = new Course();
             course.setCourseName(courseName);

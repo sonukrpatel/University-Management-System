@@ -54,7 +54,7 @@ body {
     font-size: 14px;
     outline: none;
     background: rgba(255, 255, 255, 0.3);
-    color: white;
+    color: #400040;
 }
 
 /* Placeholder Styling */
@@ -62,7 +62,7 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Role Dropdown */
+/* Role Drop down */
 .signup-container select {
     cursor: pointer;
 }
@@ -92,12 +92,12 @@ body {
 }
 
 .signup-container p a {
-    color: #fff;
+    color: #4CAF50;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .signup-container p a:hover {
-    color: #0af515;
+    color: #45a049;
 }

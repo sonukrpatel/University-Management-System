@@ -37,12 +37,20 @@ public class CourseDao {
                 course.setCourseCode(rs.getString("course_code"));
                 course.setDescription(rs.getString("description"));
                 courses.add(course);
+               
             }
+            System.out.println("Total courses fetched: " + courses.size()); // Debugging line
         } catch (Exception e) {
             e.printStackTrace();
         }
+        
+        if (courses.isEmpty()) {
+            System.out.println("Course list is empty!");  // Debugging
+        }
+        
         return courses;
     }
+
 
     public boolean deleteCourse(int id) {
         try {

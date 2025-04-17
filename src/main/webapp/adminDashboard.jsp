@@ -20,7 +20,7 @@
         <h2>Admin Panel</h2>
         <ul>
             <li><a href="manageUsers.jsp">Manage Users</a></li>
-            <li><a href="manageCourses.jsp">Manage Courses</a></li>
+            <li><a href="manageCourse.jsp">Manage Courses</a></li>
             <li><a href="reports.jsp">View Reports</a></li>
             <li><a href="logout">Logout</a></li>
         </ul>

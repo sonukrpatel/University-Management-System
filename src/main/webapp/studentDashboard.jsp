@@ -20,9 +20,9 @@
         <h2>Student Panel</h2>
         <ul>
         	<li><a href="studentDetails.jsp">Add Details</a></li>
-            <li><a href="viewCourses.jsp">My Courses</a></li>
+            <li><a href="myCourses.jsp">My Courses</a></li>
             <li><a href="downloadAssignments.jsp">Assignments</a></li>
-            <li><a href="viewGrades.jsp">My Grades</a></li>
+            <li><a href="myGrade.jsp">My Grades</a></li>
             <li><a href="logout">Logout</a></li>
         </ul>
     </nav>

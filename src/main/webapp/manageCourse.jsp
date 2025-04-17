@@ -1,7 +1,4 @@
-<%@ page import="java.util.List, model.Course, DAO.CourseDao" %>
-
-
-
+<%@ page import="java.util.List, DAO.Course, DAO.CourseDao" %>
 
 <%
     CourseDao courseDao = new CourseDao();

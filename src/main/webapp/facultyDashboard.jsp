@@ -19,9 +19,9 @@
     <nav>
         <h2>Faculty Panel</h2>
         <ul>
-            <li><a href="viewCourses.jsp">View Courses</a></li>
+            <li><a href="viewCourses">View Courses</a></li>
             <li><a href="uploadAssignment.jsp">Upload Assignments</a></li>
-            <li><a href="gradeStudents.jsp">Grade Students</a></li>
+            <li><a href="gradeStudent.jsp">Grade Students</a></li>
             <li><a href="logout">Logout</a></li>
         </ul>
     </nav>
